@@ -29,10 +29,9 @@ excel-learning-journey
 ├── README.md
 │
 ├── days/
-│   ├── day01/
-│   │   └── README.md
-│   ├── day02/
-│   ├── day03/
+│   ├── day01.md
+│   ├── day02.md
+│   ├── day03.md
 │   └── ...
 │
 ├── datasets/
@@ -244,3 +243,4 @@ If you have suggestions or resources that could improve this learning journey, f
 ---
 
 ⭐ If you find this useful, feel free to star the repository.
+
