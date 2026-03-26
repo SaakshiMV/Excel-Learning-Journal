@@ -1,246 +1,197 @@
-# Excel Learning Journey 📊
+![Excel](https://img.shields.io/badge/Excel-Learning-green)
+![Progress](https://img.shields.io/badge/Progress-45%20Days-blue)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
 
-A structured **45-Day journey to master Microsoft Excel** from beginner to advanced level.
+# 📊 45 Days of Excel Mastery
 
-This repository documents my daily learning as I build strong skills in **spreadsheet analysis, data manipulation, and dashboard creation using Excel**.
+> A public learning journey documenting my progress from **Excel beginner → data analysis & dashboard creation** in 45 days.
 
-The goal of this project is to develop **practical Excel skills used in real business environments** and maintain a public record of the learning process.
-
----
-
-# Project Goals 🎯
-
-By the end of this journey I aim to be able to:
-
-* Organize and structure datasets efficiently
-* Use Excel formulas and functions confidently
-* Clean and manipulate data
-* Perform data analysis
-* Create dashboards and visual reports
-* Build real-world Excel projects used in business and analytics
+This repository contains my **daily notes, practice sheets, and projects** as I learn Excel step by step.
 
 ---
 
-# Repository Structure 📁
+# 🎯 Goals
+
+- ✔ Build strong Excel fundamentals  
+- ✔ Learn data cleaning and analysis  
+- ✔ Master formulas and functions  
+- ✔ Create dashboards and reports  
+- ✔ Build a GitHub-ready portfolio  
+
+---
+
+# 📊 Learning Progress
+
+| Day    | Topic                              | Status |
+| ------ | ---------------------------------- | ------ |
+| Day 1  | Excel Interface                    | ⬜ |
+| Day 2  | Basic Formulas                     | ⬜ |
+| Day 3  | Cell References                    | ⬜ |
+| Day 4  | Formatting                         | ⬜ |
+| Day 5  | Tables                             | ⬜ |
+| Day 6  | Basic Functions                    | ⬜ |
+| Day 7  | Mini Project (Expense Tracker)     | ⬜ |
+| Day 8  | Sorting                            | ⬜ |
+| Day 9  | Filtering                          | ⬜ |
+| Day 10 | Conditional Formatting             | ⬜ |
+| Day 11 | Remove Duplicates                  | ⬜ |
+| Day 12 | Text to Columns                    | ⬜ |
+| Day 13 | Data Validation                    | ⬜ |
+| Day 14 | Mini Project (Data Cleaning)       | ⬜ |
+| Day 15 | IF Function                        | ⬜ |
+| Day 16 | Nested IF                          | ⬜ |
+| Day 17 | SUMIF / COUNTIF                    | ⬜ |
+| Day 18 | SUMIFS / COUNTIFS                  | ⬜ |
+| Day 19 | VLOOKUP                            | ⬜ |
+| Day 20 | XLOOKUP                            | ⬜ |
+| Day 21 | INDEX + MATCH                      | ⬜ |
+| Day 22 | Mini Project (Sales Analysis)      | ⬜ |
+| Day 23 | Pivot Tables                       | ⬜ |
+| Day 24 | Pivot Charts                       | ⬜ |
+| Day 25 | Slicers                            | ⬜ |
+| Day 26 | Chart Types                        | ⬜ |
+| Day 27 | Dashboard Design                   | ⬜ |
+| Day 28 | KPI Metrics                        | ⬜ |
+| Day 29 | Dashboard Build                    | ⬜ |
+| Day 30 | Final Dashboard                    | ⬜ |
+| Day 31 | Named Ranges                       | ⬜ |
+| Day 32 | Advanced Conditional Formatting    | ⬜ |
+| Day 33 | Data Cleaning Functions            | ⬜ |
+| Day 34 | Date Functions                     | ⬜ |
+| Day 35 | Error Handling                     | ⬜ |
+| Day 36 | Dynamic Arrays                     | ⬜ |
+| Day 37 | Macros                             | ⬜ |
+| Day 38 | Mini Project (Automation)          | ⬜ |
+| Day 39 | Power Query                        | ⬜ |
+| Day 40 | Data Transformation                | ⬜ |
+| Day 41 | Power Pivot                        | ⬜ |
+| Day 42 | Excel + Python                     | ⬜ |
+| Day 43 | Automation                         | ⬜ |
+| Day 44 | Final Project                      | ⬜ |
+| Day 45 | Portfolio & GitHub Optimization    | ⬜ |
+
+---
+
+# 📅 Learning Roadmap
+
+## 🟢 Week 1 — Excel Basics
+- Interface & Navigation  
+- Basic Formulas  
+- Formatting  
+- Tables  
+
+---
+
+## 🔵 Week 2 — Data Cleaning
+- Sorting & Filtering  
+- Conditional Formatting  
+- Data Validation  
+- Cleaning messy datasets  
+
+---
+
+## 🟡 Week 3 — Formulas & Functions
+- IF, Nested IF  
+- SUMIF, COUNTIF  
+- XLOOKUP, INDEX + MATCH  
+
+---
+
+## 🟣 Week 4 — Dashboards
+- Pivot Tables  
+- Charts  
+- KPI Metrics  
+- Dashboard Design  
+
+---
+
+## 🔴 Week 5 — Advanced Excel
+- Dynamic Arrays  
+- Error Handling  
+- Macros  
+- Automation  
+
+---
+
+## ⚡ Week 6 — Industry Skills
+- Power Query  
+- Power Pivot  
+- Excel + Python  
+- Final Project  
+
+---
+
+# 📂 Repository Structure
 
 ```
-excel-learning-journey
+excel-45-day-mastery/
 │
 ├── README.md
 │
-├── days/
+├── notes/
 │   ├── day01.md
 │   ├── day02.md
-│   ├── day03.md
 │   └── ...
 │
-├── datasets/
-│   ├── sales_dataset.csv
-│   ├── employee_dataset.csv
-│   └── finance_dataset.csv
+├── data/
+│   ├── raw/
+│   └── cleaned/
 │
 ├── projects/
-│   ├── budget_tracker.xlsx
-│   ├── expense_dashboard.xlsx
-│   └── sales_dashboard.xlsx
+│   ├── expense-tracker/
+│   │   ├── expense.xlsx
+│   │   └── README.md
+│   │
+│   ├── data-cleaning/
+│   ├── sales-analysis/
+│   ├── dashboard-project/
+│   └── automation-project/
 │
-├── resources/
-│   ├── excel_shortcuts.md
-│   ├── useful_formulas.md
-│   └── learning_template.md
+├── dashboards/
+│   └── sales-dashboard.xlsx
 │
 └── assets/
-    └── screenshots/
+    └── images/
 ```
 
 ---
 
-# Learning Roadmap 🗺️
+# ⭐ Projects
 
-The 45-day curriculum is divided into progressive levels.
-
-| Level   | Focus                | Days        |
-| ------- | -------------------- | ----------- |
-| Level 1 | Excel Fundamentals   | Day 1 – 7   |
-| Level 2 | Core Excel Skills    | Day 8 – 14  |
-| Level 3 | Formulas & Functions | Day 15 – 24 |
-| Level 4 | Data Analysis        | Day 25 – 32 |
-| Level 5 | Advanced Excel       | Day 33 – 38 |
-| Level 6 | Real Projects        | Day 39 – 45 |
+| Project              | Description                           |
+| -------------------- | ------------------------------------- |
+| Expense Tracker      | Track daily expenses                  |
+| Data Cleaning Tool   | Clean messy datasets                  |
+| Sales Analysis       | Analyze sales trends                  |
+| Dashboard Project    | Interactive business dashboard        |
+| Automation Project   | Excel-based automation                |
+| Final Project        | Complete end-to-end Excel solution    |
 
 ---
 
-# Topics Covered 📚
+# 🧠 Learning Approach
 
-### Excel Fundamentals
+This journey follows:
 
-* Excel interface
-* Rows, columns, cells
-* Data entry
-* Formatting
-* Basic formulas
+> **Learn → Practice → Build → Document**
 
-### Data Manipulation
-
-* Sorting
-* Filtering
-* Conditional formatting
-* Data validation
-* Tables
-
-### Excel Functions
-
-* SUM
-* AVERAGE
-* IF
-* VLOOKUP
-* XLOOKUP
-* INDEX MATCH
-* TEXT functions
-
-### Data Analysis
-
-* Pivot tables
-* Pivot charts
-* Data visualization
-* Dashboards
-* Slicers
-
-### Advanced Excel
-
-* Power Query
-* Dynamic arrays
-* Advanced formulas
-* Large dataset handling
-
-### Real-World Projects
-
-* Budget tracker
-* Expense dashboard
-* Sales analysis dashboard
-* HR analytics sheet
+Each day includes:
+- Concepts  
+- Practice  
+- Mini project  
+- Notes  
 
 ---
 
-# Projects in this Repository 💼
+# 📈 Why This Repository Exists
 
-During the learning journey, the following projects will be built.
-
-### Personal Budget Tracker
-
-Track income, expenses, and savings.
-
-### Expense Dashboard
-
-Visualize monthly spending patterns.
-
-### Sales Analysis Dashboard
-
-Analyze product sales across regions.
-
-### HR Analytics Sheet
-
-Analyze employee data and workforce metrics.
+- To build strong Excel skills  
+- To stay consistent for 45 days  
+- To create a portfolio for internships  
+- To learn in public  
 
 ---
 
-# Datasets Used 📊
+# 🌱 Current Status
 
-Practice datasets included in the repository:
-
-* Sales dataset
-* Employee dataset
-* Finance dataset
-
-These datasets help simulate **real-world business scenarios**.
-
----
-
-# Example Dataset Structure
-
-### Sales Dataset
-
-```
-OrderID,Product,Region,Units,Revenue
-1001,Laptop,North,3,3000
-1002,Phone,South,5,2500
-1003,Tablet,West,2,800
-```
-
----
-
-# Tools Used 🛠️
-
-* Microsoft Excel
-* GitHub
-* CSV datasets
-
----
-
-# Skills Being Developed 🚀
-
-Through this project I am practicing:
-
-* Data organization
-* Spreadsheet design
-* Analytical thinking
-* Business reporting
-* Documentation
-
----
-
-# Progress Tracker 📅
-
-| Day    | Topic                   | Status |
-| ------ | ----------------------- | ------ |
-| Day 1  | Excel Interface         | ✅      |
-| Day 2  | Data Entry              | ⬜      |
-| Day 3  | Formatting              | ⬜      |
-| Day 4  | Basic Formulas          | ⬜      |
-| Day 5  | Essential Functions     | ⬜      |
-| ...    | ...                     | ...    |
-| Day 45 | Final Dashboard Project | ⬜      |
-
----
-
-# Why This Repository Exists 💡
-
-This project helps me:
-
-* Learn Excel systematically
-* Practice real-world use cases
-* Document knowledge clearly
-* Build a **public learning portfolio**
-
----
-
-# How to Use This Repository
-
-If you're also learning Excel:
-
-1. Follow the **daily lessons**
-2. Try the **practice exercises**
-3. Work on the **mini projects**
-4. Explore the **datasets**
-
----
-
-# Future Improvements
-
-Possible additions:
-
-* Advanced dashboards
-* Power Query pipelines
-* Financial modeling
-* Data analysis case studies
-
----
-
-# Connect / Feedback
-
-If you have suggestions or resources that could improve this learning journey, feel free to share them.
-
----
-
-⭐ If you find this useful, feel free to star the repository.
-
+🚧 Day 1 — Starting the journey!
